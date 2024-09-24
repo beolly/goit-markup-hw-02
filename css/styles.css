@@ -28,7 +28,7 @@ letter-spacing: 0.54px;
 line-height: 1.17 ;
 text-transform: uppercase;
 }
-.logo-span{color:#2E2F42;
+.logo-span{color:#2e2f42 ;
     
 }
 .menu-li{
@@ -46,14 +46,23 @@ color: #404bbf;
 .menu-li:active{
     text-decoration:underline #404BBF;
 }
+.menu-link:focus,.menu-link:active{
+    color:#404bbf  ;
+    
+}
+.menu-adress{
+  font-style: normal;  
+}
+
+
 .adress-li{
-    font-style: normal;
+    
     line-height: 1.5 ;
 letter-spacing: 0.32px;
 }
-.menu-adress:hover,.menu-adress:active,.menu-adress:focus{
+.adress-link:hover,.adress-link:active,.adress-link:focus{
     color: #404bbf;
-
+   
 }
 /* hero */
 .hero-section{
@@ -100,7 +109,7 @@ letter-spacing: 0.32px;
 
 }
 
-.team-list{
+.team-link{
     background-color: #FFFFFF;
 }
 .team-section-title{
@@ -170,7 +179,8 @@ text-transform: uppercase;
 }
 
 .footer-logo-span{
-     color: #F4F4FD;
+     color:  #f4f4fd;
+    
 font-family: 'Raleway',sans-serif;
 font-size: 18px;
 font-weight: 700;
